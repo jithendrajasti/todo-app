@@ -7,7 +7,7 @@ const TodoItems = (props) => {
     const deleteTask=props.method1;
     const toggle=props.method2;
   return (
-   <div className='flex items-center justify-between my-2 gap-2 sm:gap-4'>
+   <div className='flex items-center justify-between my-2 gap-2 sm:gap-4 hover:bg-gray-500'>
   {/* Toggle Complete Section */}
   <div
     className='flex flex-1 items-center gap-3 sm:gap-4 cursor-pointer'
